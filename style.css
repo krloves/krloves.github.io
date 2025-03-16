@@ -1,0 +1,228 @@
+/*========== Basic CSS ==========*/
+
+body{
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    font-family: "Albert Sans", sans-serif;
+    color:#444;
+    padding:0
+    10px
+    }
+
+
+h1 {
+    text-align: center;
+    font-family: "Albert Sans", sans-serif;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255,255,255,0.9)
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    border-radius: 50%
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
+    }
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    }
+
+
+ul.icons li a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 100%;
+    border: solid 1px #c8cccf;
+    line-height: 3.75em;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 3.75em;
+    white-space: nowrap;
+}
+
+.profile-img {
+    float: left;
+    margin-top: 4px;
+    margin-right: 4px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-right: 20px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+.text {
+    flex: 1;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Hobbies Section */
+.container #hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* Flex Container for Cards */
+#hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Card Styling */
+.card {
+    height: 150px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px gray;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    max-width: 160px;
+}
+
+/* Image Styling */
+.imgcard {
+    width: 100%; /
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Intro Section */
+.intro {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -250px;
+    background: rgba(27, 27, 27, 0.7);
+    transition: bottom 0.3s ease-in-out;
+    text-align: center;
+    color: white;
+}
+
+/* Description Inside Intro */
+.description {
+    font-size: 12px;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Responsive for Mobile Screens */
+@media (max-width: 600px) {
+    #hobbies {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imgcard {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro {
+        bottom: 0; /
+    }
+}
+
+#btn {
+  background-color: #3b492b;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1)
+}
+
+#btn:active {
+    transform: scale(0.96);
+}
+
+/*========== Responsive ==========*/
+
+.hover-effect {
+    background: #cfd2cd !important;
+    color: black !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card:hover .intro {
+    bottom: 0;
+}
+
+.card:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*========== Contact Section ==========*/
+
+#contact ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
+    }
+
+
