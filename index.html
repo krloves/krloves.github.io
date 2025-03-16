@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KRLOVES ♥</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <!-- Header -->
+        <header id="header" class="alt">
+            <span class="logo"><img src="static/images/krloves_logo.png" alt="krloves-logo"  width="150px"/></span>
+            <h1>KRLOVES ♥</h1>
+        </header>
+    <hr>
+
+
+    <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#introduction" class="active">About Me</a></li>
+                <li><a href="#hobbies">Hobbies & Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    <hr>
+
+
+    <!-- Introduction -->
+    <div class="container">
+
+        <section id="introduction">
+            <h1>About Me </h1>
+            <!-- Placeholder for the image -->
+            <div class="profile-img">
+                <img src="static/images/krloves_logo.png" alt="krloves-logo"  width="150px"/>
+            </div>
+
+            <div class="text">
+                <p> Hi, I'm <strong>Karen Lovedorial</strong>, a licensed civil engineer with a strong passion for digital solutions in engineering.
+                    I hold a Bachelor of Science in Civil Engineering from the University of the Philippines and have gained expertise in quantity surveying,
+                    GIS mapping, and site development design. My work integrates data analytics, automation, and programming to optimize engineering processes.</p>
+                <p> Beyond my technical background, I have experience in AI training, database management,
+                    and business intelligence tools like Power BI. I am constantly learning and expanding my skills to
+                    bridge the gap between engineering and technology.</p>
+            </div>
+        </section>
+    </div>
+
+    <br>
+
+    <!-- Hobbies & Interests -->
+
+    <div class="container">
+        <h1>My Hobbies</h1>
+            <section id="hobbies">
+                <div class="card">
+                    <img src="static/images/krloves_logo.png" class="imgcard" alt="hobby1">
+                        <div class="intro">
+                            <h2>hobby1</h2>
+                            <p class="description">The butterfly is the fly</p>
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/krloves_logo.png" class="imgcard" alt="hobby1">
+                        <div class="intro">
+                            <h2>hobby1</h2>
+                            <p class="description">The butterfly is the fly</p>
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/krloves_logo.png" class="imgcard" alt="hobby1">
+                        <div class="intro">
+                            <h2>hobby1</h2>
+                            <p class="description">The butterfly is the fly</p>
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/krloves_logo.png" class="imgcard" alt="hobby1">
+                        <div class="intro">
+                            <h2>hobby1</h2>
+                            <p class="description">The butterfly is the fly</p>
+                        </div>
+                </div>
+            </section>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <h1>Contact</h1>
+            <section id="contact">
+                <ul>
+                    <li><a href="https://krloves.my.canva.site/"><img src="static/images/canva.png" width="15%"></a></li>
+                    <li><a href="https://www.linkedin.com/"><img src="static/images/linkedin.jpg" width="15%"></a></li>
+                    <li><a href="https://github.com/digitalenggph/"><img src="static/images/github.png" width="15%"></a></li>
+                </ul>
+            </section>
+    </div>
+
+<script>
+    const navLinks = document.querySelectorAll("#nav ul li a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("mouseover", function() {
+            this.classList.add("hover-effect");
+        });
+
+        link.addEventListener("mouseout", function() {
+            this.classList.remove("hover-effect");
+        });
+    });
+</script>
+
+</body>
+
+
+
+
+
+</html>
