@@ -9,16 +9,16 @@ In partial fulfillment of my Computer Science Course
 - Get comfortable with debugging and refining web pages
 
 ## Project Requiremennts
-|Sections|Description|
-|--------|-----------|
-|Header|Name, site title, and a simple navigation menu (links can be placeholders)|
-|About Me| A short paragraph introducing the student with an image.|
-|Hobbies & Interests|A list of at least three hobbies with brief descriptions.|
-|Contact Info| A section displaying an email address and social media links (placeholders)|
+|Sections|Description|What I did|
+|--------|-----------|----------|
+|Header|Name, site title, and a simple navigation menu (links can be placeholders)|✅ I put a simple logo I created on my own at the top of the image with my digital space username. I also made a simple navigation menu that is linked to the sections of my website.|
+|About Me| A short paragraph introducing the student with an image.|✅ I put in my 2x2 ID + a short description of what I contribute to the professional space. I implemented a simple flex wrap here so I can put my image and the paragraph side by side. I am forever thankful of StacksOverflow!|
+|Hobbies & Interests|A list of at least three hobbies with brief descriptions.|✅ I put in five because I am extra :D I took advantage of the pointer hover for the interactivity in this part.|
+|Contact Info| A section displaying an email address and social media links (placeholders)|✅ Ths one is simple but it took me a long time because I was trying to insert font-awesome icon to achieve that minimalistic look. However, I am running out of time and there's nothing wrong with a little color anyway. I selected the circular version of the logos so they look cuter.|
 
 ### Technologies Used
-|Technology|Description|
-|----------|-----------|
+|Technology|Description|Where to find this|
+|----------|-----------|------------------|
 |HTML|Use proper semantic tags (&lt;header&gt;, &lt;section&gt;, &lt;footer&gt;, etc.).|
 |CSS|External stylesheet for design and layout.|
 |JavaScript|A simple script for interactivity (e.g., button click effects or changing content dynamically).|
