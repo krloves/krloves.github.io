@@ -29,5 +29,5 @@ In partial fulfillment of my Computer Science Course
 |--------|------------|----------|
 |Navigation Menu|A simple top menu with working anchor links|📍 As stated previously, I linked the navigation menu to certain sections of the page|
 |Hover Effects|CSS styling changes when hovering over buttons or images.| 💗 This is what I did on "My hobbies" section
-|JavaScript Interaction|A button that displays a fun fact about the student when clicked|
+|JavaScript Interaction|A button that displays a fun fact about the student when clicked| ❗Almost forgot this. But I managed to put a simple button for the fun fact :) |
 |Mobile-Friendly Layout|Use CSS media queries to ensure the site looks good on different screen sizes.|✨ There's an element in the <head> section that allowed this. I tested the website on my phone and the website was wrapped automatically.|
