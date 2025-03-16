@@ -19,10 +19,10 @@ In partial fulfillment of my Computer Science Course
 ### Technologies Used
 |Technology|Description|Where to find this|
 |----------|-----------|------------------|
-|HTML|Use proper semantic tags (&lt;header&gt;, &lt;section&gt;, &lt;footer&gt;, etc.).|
-|CSS|External stylesheet for design and layout.|
-|JavaScript|A simple script for interactivity (e.g., button click effects or changing content dynamically).|
-|Optional Enhancements| Basic CSS animations or transitions.|
+|HTML|Use proper semantic tags (&lt;header&gt;, &lt;section&gt;, &lt;footer&gt;, etc.).|[index.html](https://github.com/krloves/krloves.github.io/blob/main/index.html)|
+|CSS|External stylesheet for design and layout.|[style.css](https://github.com/krloves/krloves.github.io/blob/main/static/assets/style.css)
+|JavaScript|A simple script for interactivity (e.g., button click effects or changing content dynamically).|[index.html](https://github.com/krloves/krloves.github.io/blob/main/index.html)|
+|Optional Enhancements| Basic CSS animations or transitions.|[style.css](https://github.com/krloves/krloves.github.io/blob/main/static/assets/style.css)|
 
 ### Features & Enhancements
 |Features|Enhancements|
